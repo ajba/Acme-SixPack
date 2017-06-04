@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd 
+	">
+
+	<util:list id="messages">
+		<value>/views/master-page/messages</value>
+		<value>/views/misc/messages</value>
+		<value>/views/security/messages</value>
+		<value>/views/welcome/messages</value>
+		<value>/views/register/messages</value>
+		<value>/views/gym/messages</value>
+		<value>/views/serviceGym/messages</value>
+		<value>/views/gym/customer/messages</value>
+		<value>/views/gym/administrator/messages</value>
+		<value>/views/feePayment/customer/messages</value>
+		<value>/views/feePayment/administrator/messages</value>
+		<value>/views/book/customer/messages</value>
+		<value>/views/book/administrator/messages</value>
+		<value>/views/service/messages</value>
+		<value>/views/folder/messages</value>
+		<value>/views/message/messages</value>
+		<value>/views/comment/messages</value>
+		<value>/views/keyWords/messages</value>	
+		<value>/views/updateprofile/messages</value>		
+		<value>/views/terms/messages</value>
+		<value>/views/dashboard/messages</value>
+	</util:list>
+
+</beans>

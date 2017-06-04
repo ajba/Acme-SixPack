@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd		
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+
+	<util:list id="converters">
+		<bean class="converters.ActorToStringConverter" />
+		<bean class="converters.AdministratorToStringConverter" />
+		<bean class="converters.BookToStringConverter" />
+		<bean class="converters.CommentToStringConverter" />
+		<bean class="converters.CreditCardToStringConverter" />
+		<bean class="converters.CustomerToStringConverter" />
+		<bean class="converters.EntityCommentToStringConverter" />
+		<bean class="converters.FeePaymentToStringConverter" />
+		<bean class="converters.FolderToStringConverter" />
+		<bean class="converters.GymToStringConverter" />
+		<bean class="converters.KeyWordsToStringConverter" />
+		<bean class="converters.MessageToStringConverter" />
+		<bean class="converters.ServiceGymToStringConverter" />
+		<bean class="converters.ServiceToStringConverter" />
+		<bean class="converters.SocialIdentityToStringConverter" />
+		<bean class="converters.AuthorityToStringConverter" />
+		
+		
+		<bean class="converters.StringToActorConverter" />
+		<bean class="converters.StringToAdministratorConverter" />
+		<bean class="converters.StringToBookConverter" />
+		<bean class="converters.StringToCommentConverter" />
+		<bean class="converters.StringToCreditCardConverter" />
+		<bean class="converters.StringToCustomerConverter" />
+		<bean class="converters.StringToEntityCommentConverter" />
+		<bean class="converters.StringToFeePaymentConverter" />
+		<bean class="converters.StringToFolderConverter" />
+		<bean class="converters.StringToGymConverter" />
+		<bean class="converters.StringToKeyWordsConverter" />
+		<bean class="converters.StringToMessageConverter" />
+		<bean class="converters.StringToServiceGymConverter" />
+		<bean class="converters.StringToServiceConverter" />
+		<bean class="converters.StringToSocialIdentityConverter" />
+		<bean class="converters.StringToAuthorityConverter" />
+		
+	</util:list>
+	
+</beans>
